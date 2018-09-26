@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerDemo", "SwaggerDemo\SwaggerDemo.csproj", "{D6B6A21F-7DDC-40D4-9D3D-7AA51F91583D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_doc", "_doc", "{5E68091B-CDAD-40F9-A641-A94598A4869A}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+		SQL.sql = SQL.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerUi", "SwaggerUi\SwaggerUi.csproj", "{421634E3-84A1-4D84-8ECF-72147DEB125A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6B6A21F-7DDC-40D4-9D3D-7AA51F91583D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6B6A21F-7DDC-40D4-9D3D-7AA51F91583D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6B6A21F-7DDC-40D4-9D3D-7AA51F91583D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6B6A21F-7DDC-40D4-9D3D-7AA51F91583D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421634E3-84A1-4D84-8ECF-72147DEB125A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421634E3-84A1-4D84-8ECF-72147DEB125A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421634E3-84A1-4D84-8ECF-72147DEB125A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421634E3-84A1-4D84-8ECF-72147DEB125A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
